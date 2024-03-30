@@ -1,0 +1,17 @@
+---
+import Articles from "../layouts/Articles.astro";
+import ARTICULOS from "./articles/articulo";
+
+---
+
+{
+ARTICULOS.map((exp) => (
+	<li>
+		<Articles {...exp} />
+	</li>
+))
+}
+
+<style>
+
+</style>

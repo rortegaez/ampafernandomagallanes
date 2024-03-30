@@ -1,0 +1,105 @@
+---
+import Instagram from "./icons/Instagram.astro"
+import Facebook from "./icons/Facebook.astro"
+---
+<section>
+	<section class="imagenes">
+		<img class="logo" src="/imgGlobal/logoSinFondo.png" alt="logo del AMPA" />
+		<img class="colegio" src="/imgGlobal/fotoGeneralColeMod.webp" alt="Foto General del cole" />
+		<span class="rrss">
+			<a href="https://www.instagram.com/ampafernandomagallanes"
+			target="_blank"
+			rel="noopener">
+				<Instagram class="icons" />
+			</a>
+			<a href="https://www.facebook.com/ampafernandomagallanes"
+			target="_blank"
+			rel="noopener">
+				<Facebook class="icons" />
+			</a>
+		</span>
+	</section>
+	<nav class="menu">
+		<a
+			href="/"
+		>
+			<p>Inicio</p>
+		</a>
+		<a
+			href="/news"
+			>
+		<p>Noticias</p>
+		</a>
+		<a
+			href="/activities"
+			>
+		<p>Actividades</p>
+		</a>
+		<!-- <p>Equipo</p> -->
+		<a
+			href="https://blogsaverroes.juntadeandalucia.es/colegiosantateresa/"
+			target="_blank"
+			rel="noopener"
+		>
+			<p>Nuestro Cole</p>
+		</a>
+		<a
+			href="/contact/"
+		>
+			<p>Contacto con nosotros</p>
+		</a>
+	</nav>
+</section>
+
+<style>
+	.imagenes {
+		background-color: var(--main-blue);
+		border-radius: 15px;
+		height: auto;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.rrss{
+		display: flex;
+		flex-direction: column;
+	}
+	.icons{
+		width: 60px;
+		height: 60px;
+		background-color: rgb(194 208 248 /0.3);
+		border-radius: 15px;
+	}
+	.icons:last-child{
+		margin-top: 10px
+	}
+	.icons:hover{
+		scale: 130%;
+	}
+	.logo {
+		height: 250px;
+		width: 250px;
+	}
+	.colegio {
+		height: 200px;
+	}
+
+	.menu {
+		background-color: var(--main-yellow);
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-radius: 15px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	p:hover {
+		scale: 130%;
+	}
+
+	a{
+		text-decoration: none;
+	}
+
+</style>

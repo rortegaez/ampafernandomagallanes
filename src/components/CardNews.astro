@@ -1,0 +1,34 @@
+---
+import Articles from "../layouts/Articles.astro";
+import ARTICULOS from './articles/articulo'
+
+interface comp {
+	title: string
+	body: string[] | string
+	link?: string
+	date: string
+	description: string
+	image?: string[]
+}
+
+let recopilacion: comp[] = []
+
+ARTICULOS.map((exp) => {
+	if(exp.description === 'news') {
+		recopilacion.push({...exp})
+	}
+})
+
+---
+
+{
+	recopilacion.map((exp) => (
+		<li>
+			<Articles {...exp} />
+		</li>
+	))
+	}
+
+<style>
+
+</style>

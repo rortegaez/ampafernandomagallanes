@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Gmail from '../components/icons/Gmail.astro'
+---
+
+<Layout
+	title="AMPA Fernando Magallanes del Marbella"
+	description="Contacto con nosotros">
+	<section class="mainBox">
+		<p>Para hablar con nosotros, estaremos por la puerta del cole dejando a nuestro hijos vuestro a los tuyos, pero si no, puedes escribirnos al nuestro email:</p>
+		<a href="mailto:ampafermagallanes23@gmail.com"
+				target="_blank"
+				rel="noopener">
+				<Gmail class="logo" />
+		</a>
+	</section>
+</Layout>
+
+<style>
+	.mainBox{
+		background-color: var(--main-gray);
+		border-radius: 15px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top:25px;
+		padding-bottom:25px;
+	}
+	.logo {
+		width: 120px;
+		height: 120px;
+		margin-top: 15px;
+	}
+	.logo:hover {
+		scale: 130%;
+		background-color: var(--main-blue);
+		border-radius: 15px;
+		padding: 5px;
+	}
+	.logo:active{
+		opacity: 70%;
+	}
+</style>
