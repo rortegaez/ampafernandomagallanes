@@ -1,5 +1,18 @@
 const ARTICULOS = [
 	{
+		title: "Reparto leche con Nesquik",
+		body: [
+			'Desde el colegio nos pidieron que les ayudasemos al reparto de leche con Nesquik para los niños del colegio. Allí estuvimos parte de la directiva del AMPA y varios padres socios, que no dudaron en apuntarse a ayudar.',
+			'Pasamos un rato de risas preparando la mezcla en las botellas de leches, para cuando estuvo todo listo, llevarlo a las diferentes clases juntos con sus vasos. Para que llegada la hora del patio, se encargase los profesores de repartir la leche a cada uno.',
+			'Terminado el "trabajo", nos hicimos la foto que veis a continuación y hasta la próxima vez que el colegio necesite nuestra ayuda.'
+		],
+		description: 'activities',
+		date: '09-04-2024',
+		image: [
+			"/repartoLeche/repartoLeche.jpg"
+		]
+	},
+	{
 		title:"El AMPA esta llegando...",
 		body:[
 		'Al final del curso pasado, tras una reunión informativa que realizo el colegio, dirigida por el director. Un grupo de padres, decidimos unirnos para que el colegio volviese a tener AMPA. El estreno de nuestra página web, es un paso más de los que ya se están dando.',
@@ -32,14 +45,7 @@ const ARTICULOS = [
 		date: '26-03-2024',
 		description: 'news'
 	},
-	{
-		title: "Estamos comenzando...",
-		body: [
-			'Estamos todavía en un proceso de conocernos y poner proyectos en marcha. Estamos trabajando para poder realizar la fiesta de fin de curso, danos tiempo y vuestro apoyo.'
-		],
-		description: 'activities',
-		date: '30-03-2024'
-	}
+
 ]
 
 export default ARTICULOS

@@ -16,7 +16,15 @@ const {title, body, link, date, image} = Astro.props
 <section class="mainBox">
 	<h2>{title}</h2>
 	<section class="middle">
-		<span class="body">{body}</span>
+		<div class="body">
+		{typeof body === 'string' ? (
+			<p class="body">{body}</p>
+		) : (
+			body.map((item: string) =>(
+				<p class="body">{item}</p>
+			))
+		)}
+	</div>
 		<div>{image?.map((img) =>(
 			<img class="imagen" src={img} alt="imagen" />
 		))}</div>
@@ -53,7 +61,9 @@ const {title, body, link, date, image} = Astro.props
 		width: 40vh;
 	}
 	.body {
-
+		display: flex;
+		flex-direction: column;
+		font-weight: normal;
 	}
 	.date {
 		margin-bottom: 10px;
