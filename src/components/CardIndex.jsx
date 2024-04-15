@@ -1,26 +1,18 @@
 import ARTICULOS from "./articles/articulo";
 
-const CardNewsR = ({ location }) => {
+const CardNewsR = () => {
   let recopilacion = [];
 
-  if (location === "main") {
-    ARTICULOS.map((exp) => {
-      recopilacion.push({ ...exp });
-    });
-  }
-
-  ARTICULOS.map((exp) => {
-    if (exp.description === location) {
-      recopilacion.push({ ...exp });
-    }
+  ARTICULOS.map((item) => {
+    recopilacion.push({ ...item });
   });
 
   return (
     <>
       {recopilacion.map((exp) => (
-        <section className="box-border bg-orange-100 flex flex-col justify-center items-center px-10 rounded-2xl my-4">
+        <section className="h-80 box-border bg-orange-100 flex flex-col items-center px-10 rounded-2xl my-4 overflow-auto">
           <h2 className="m-5 font-bold underline text-blue-700">{exp.title}</h2>
-          <section className="flex flex-row">
+          <section className="flex flex-col justify-center items-center">
             <div className="flex flex-col">
               {typeof exp.body === "string" ? (
                 <p className="flex flex-col font-normal">{exp.body}</p>
@@ -30,9 +22,9 @@ const CardNewsR = ({ location }) => {
                 ))
               )}
             </div>
-            <div className="w-1/2 h-1/2">
+            <div className="w-1/2 h-1/2 mt-5">
               {exp.image?.map((item) => (
-                <img /* className="w-96" */ src={item} alt="imagen" />
+                <img src={item} alt="imagen" />
               ))}
             </div>
           </section>

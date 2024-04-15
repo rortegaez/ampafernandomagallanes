@@ -1,5 +1,6 @@
 ---
-import Card from '../components/Card';
+
+import CardIndex from '../components/CardIndex';
 import Layout from '../layouts/Layout.astro';
 
 ---
@@ -9,6 +10,8 @@ import Layout from '../layouts/Layout.astro';
 	description="Asociación de Padres y Madres Fernando Magallanes del CEIP Santa Teresa de Marbella">
 	<main>
 		<h1>Bienvenidos</h1>
-		<Card location={'main'} />
+		<div class="grid grid-cols-3 gap-5">
+			<CardIndex />
+		</div>
 	</main>
 </Layout>
