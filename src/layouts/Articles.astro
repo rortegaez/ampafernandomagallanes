@@ -1,6 +1,7 @@
 ---
 
 interface Props {
+	ident: string
 	title: string
 	body: string[] | string
 	link?: string
@@ -24,7 +25,7 @@ const {title, body, link, date, image} = Astro.props
 				<p class="body">{item}</p>
 			))
 		)}
-	</div>
+		</div>
 		<div>{image?.map((img) =>(
 			<img class="imagen" src={img} alt="imagen" />
 		))}</div>
@@ -47,7 +48,7 @@ const {title, body, link, date, image} = Astro.props
 	}
 	h2 {
 		text-decoration:underline;
-		color: var(--main-blue);
+		color: var(--main-orange);
 		margin: 10px;
 	}
 	.middle{
