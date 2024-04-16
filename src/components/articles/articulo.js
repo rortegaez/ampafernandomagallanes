@@ -1,5 +1,6 @@
 const ARTICULOS = [
 	{
+		ident: "repartoLeche",
 		title: "Reparto leche con Nesquik",
 		body: [
 			'Desde el colegio nos pidieron que les ayudasemos al reparto de leche con Nesquik para los niños del colegio. Allí estuvimos parte de la directiva del AMPA y varios padres socios, que no dudaron en apuntarse a ayudar.',
@@ -13,6 +14,7 @@ const ARTICULOS = [
 		]
 	},
 	{
+		ident: "amapaLlegando",
 		title:"El AMPA esta llegando...",
 		body:[
 		'Al final del curso pasado, tras una reunión informativa que realizo el colegio, dirigida por el director. Un grupo de padres, decidimos unirnos para que el colegio volviese a tener AMPA. El estreno de nuestra página web, es un paso más de los que ya se están dando.',
@@ -33,6 +35,7 @@ const ARTICULOS = [
 		]
 	},
 	{
+		ident: "primerPaso",
 		title: 'Hemos dado el primer paso GRACIAS',
 		body: [
 			'Después de meses de trabajo para poner en marcha el AMPA, llego el momento de conseguir los afiliados, ya que, mientras más seamos más proyecto podremos poner en marcha y más seremos para mejorar nuestro colegio',
