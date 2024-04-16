@@ -38,7 +38,7 @@ const CardNewsR = ({ location }) => {
           </section>
           <section>
             <p>{exp.link}</p>
-            <p className="my-30">{exp.date}</p>
+            <p className="mb-3">{exp.date}</p>
           </section>
         </section>
       ))}
