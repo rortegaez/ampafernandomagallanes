@@ -6,39 +6,31 @@ import Gmail from '../components/icons/Gmail.astro'
 <Layout
 	title="AMPA Fernando Magallanes del Marbella"
 	description="Contacto con nosotros">
-	<section class="mainBox">
-		<p>Para hablar con nosotros, estaremos por la puerta del cole dejando a nuestro hijos vuestro a los tuyos, pero si no, puedes escribirnos al nuestro email:</p>
+	<section class="bg-gray-300 flex flex-col justify-center items-center rounded-xl p-5 mt-3">
+		<p class="text-blue-800 font-bold">Para hablar con nosotros, estaremos por la puerta del cole dejando a nuestro hijos vuestro a los tuyos, pero si no, puedes escribirnos al nuestro email:</p>
 		<a href="mailto:ampafermagallanes23@gmail.com"
 				target="_blank"
 				rel="noopener">
-				<Gmail class="logo" />
+				<Gmail className='w-1/3 h-1/3 mt-5 hover:scale-110 hover:background-blue-500 hover:rounded-full hover:p-1 active:opacity-70' />
 		</a>
 	</section>
+	<section class="text-xm bg-gray-300 flex flex-col justify-center items-center rounded-xl p-5 mt-3">
+		<p>¡Afiliate! Estas son los pasos que debes de seguir</p>
+		<ol>
+			<li class="font-bold text-blue-800">Primero: Descarga el documento</li>
+			<li class="font-bold text-blue-800 flex flex-col justify-center items-center"><a href="/docs/inscripcion2425.pdf"
+				target="_blank"
+				rel="noopener">
+				<button class="flex flex-col bg-blue-800 hover:bg-blue-600 rounded-xl p-2 text-blue-200">Documentación</button>
+			</a></li>
+			<li class="font-bold text-blue-800">Segundo: Realiza la transferencia a la cuenta que aparece en el documento</li>
+			<li class="font-bold text-blue-800">Tercero: Mandonos el justificante de la transferencia, junto al documento relleno</li>
+			<li class="font-bold text-blue-800 flex flex-col justify-center items-center"><a href="mailto:ampafermagallanes23@gmail.com"
+				target="_blank"
+				rel="noopener">
+				<button class="flex flex-col bg-blue-800 hover:bg-blue-600 rounded-xl p-2 text-blue-200">Email</button>
+			</a></li>
+			
+		</ol>
+	</section>
 </Layout>
-
-<style>
-	.mainBox{
-		background-color: var(--main-gray);
-		border-radius: 15px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding-top:25px;
-		padding-bottom:25px;
-	}
-	.logo {
-		width: 120px;
-		height: 120px;
-		margin-top: 15px;
-	}
-	.logo:hover {
-		scale: 130%;
-		background-color: var(--main-blue);
-		border-radius: 15px;
-		padding: 5px;
-	}
-	.logo:active{
-		opacity: 70%;
-	}
-</style>
