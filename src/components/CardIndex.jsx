@@ -25,10 +25,8 @@ const CardNewsR = () => {
                   ))
                 )}
               </div>
-              <div className="w-1/2 h-1/2 mt-5">
-                {exp.image?.map((item) => (
-                  <img src={item} alt="imagen" />
-                ))}
+              <div className="border-box mt-5">
+                {exp.image?.length > 0 && ( <img src={exp.image[0]} alt="imagen" /> )}
               </div>
             </section>
             <section>

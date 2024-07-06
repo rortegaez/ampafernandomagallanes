@@ -11,10 +11,19 @@ const ARTICULOS = [
 			'Así que sin más que tengan un Feliz Verano y disfrutéis con vuestros hijos.',
 			'Saludos la Dirección del AMPA Fernando Magallanes.'
 		],
-		description: "activities",
+		description: "news",
 		date: '21-06-2024',
 		image: [
-			''
+			'finCurso2324/imagen1.jpg',
+			'finCurso2324/imagen2.jpg',
+			'finCurso2324/imagen3.jpg',
+			'finCurso2324/imagen4.jpg',
+			'finCurso2324/imagen5.jpg',
+			'finCurso2324/imagen6.jpg',
+			'finCurso2324/imagen7.jpg',
+			'finCurso2324/imagen8.jpg',
+			'finCurso2324/imagen9.jpg',
+			'finCurso2324/imagen10.jpg'
 		]
 	},
 	{
