@@ -1,4 +1,6 @@
+import { useState } from "react";
 import ARTICULOS from "./articles/articulo";
+import Modal from "./modal/Modal";
 import "../css/card.css";
 
 const CardNewsR = ({ location }) => {
