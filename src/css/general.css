@@ -1,0 +1,19 @@
+/* Elementos de activities y news */
+h1 {
+  color: var(--main-textBlue);
+  font-weight: bold;
+}
+.mainBlock {
+  background-color: var(--main-blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.text {
+  color: var(--main-textBlue);
+  font-weight: bold;
+}

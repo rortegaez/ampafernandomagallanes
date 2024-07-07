@@ -1,0 +1,15 @@
+.mainbox {
+  box-sizing: border-box;
+  background-color: var(--main-yellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 15px;
+}
+
+/* boxborder bg-orange-100 flex flex-col justify-center items-center px-10 rounded-2xl my-4 */
