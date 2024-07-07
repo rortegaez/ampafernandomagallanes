@@ -19,27 +19,25 @@ const CardNewsR = ({ location }) => {
   return (
     <>
       {recopilacion.map((exp) => (
-        <section className="box-border bg-orange-100 flex flex-col justify-center items-center px-10 rounded-2xl my-4">
-          <h2 className="m-5 font-bold underline text-blue-700">{exp.title}</h2>
-          <section className="flex flex-col">
-            <div className="flex flex-col">
+        <section className="mainbox">
+          <h2 className="maintitle">{exp.title}</h2>
+          <section className="oneSection">
+            <div className="mainDiv">
               {typeof exp.body === "string" ? (
-                <p className="flex flex-col font-normal">{exp.body}</p>
+                <p className="textPg">{exp.body}</p>
               ) : (
-                exp.body.map((item) => (
-                  <p className="flex flex-col font-normal">{item}</p>
-                ))
+                exp.body.map((item) => <p className="textPg">{item}</p>)
               )}
             </div>
-            <div className="box-border flex flex-row justify-center items-center overflow-auto">
+            <div className="imagesBox">
               {exp.image?.map((item) => (
-                <img src={item} alt="imagen" className="w-1/2 h-1/2" />
+                <img src={item} alt="imagen" className="images" />
               ))}
             </div>
           </section>
           <section>
             <p>{exp.link}</p>
-            <p className="mb-3">{exp.date}</p>
+            <p className="textPg">{exp.date}</p>
           </section>
         </section>
       ))}
