@@ -1,4 +1,5 @@
 import ARTICULOS from "./articles/articulo";
+import "../css/card.css";
 
 const CardNewsR = ({ location }) => {
   let recopilacion = [];
@@ -30,9 +31,9 @@ const CardNewsR = ({ location }) => {
                 ))
               )}
             </div>
-            <div className="box-border flex flex-row overflow-auto">
+            <div className="box-border flex flex-row justify-center items-center overflow-auto">
               {exp.image?.map((item) => (
-                <img src={item} alt="imagen" className='w-1/2 h-1/2' />
+                <img src={item} alt="imagen" className="w-1/2 h-1/2" />
               ))}
             </div>
           </section>
