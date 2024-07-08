@@ -1,0 +1,80 @@
+/* css de activities, index y news */
+.mainbox {
+    box-sizing: border-box;
+    background-color: var(--main-orange);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+  .mainBoxGrid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .mainLitleBox {
+    box-sizing: border-box;
+    height: 400px;
+    background-color: var(--main-orange);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: auto;
+  }
+  .maintitle {
+    box-sizing: border-box;
+    margin: 8px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: var(--main-blue);
+  }
+  .oneSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .textPg {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  .imagesBox {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+  }
+  .images {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .oneImage {
+    box-sizing: border-box;
+    margin-top: 10px;
+  }
+  .date {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .littleBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
