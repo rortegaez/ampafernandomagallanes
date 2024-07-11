@@ -1,7 +1,26 @@
 ---
-
-import CardIndex from '../components/CardIndex';
 import Layout from '../layouts/Layout.astro';
+import ARTICULOS from '../components/articles/articulo'
+import '../css/main.css';
+
+type Articulo = {
+	title: string,
+	description: string;
+	body: string | string[];
+	image?: string[],
+	date?: string;
+	link?: string;
+}
+
+// const paginaActual = Astro.url.pathname.split('/').pop()
+
+let recopilacion: Articulo[] = [];
+
+ARTICULOS.map((exp) => {
+		recopilacion.push({...exp})
+})
+
+console.log(recopilacion, 'rec')
 
 ---
 
@@ -11,7 +30,29 @@ import Layout from '../layouts/Layout.astro';
 	<main>
 		<h1>Bienvenidos</h1>
 		<div class="mainBoxGrid">
-			<CardIndex />
-		</div>
+		{recopilacion.map((exp) => (
+			<a href={exp.description}>
+			  <section class="mainLitleBox">
+				<h2 class="maintitle">{exp.title}</h2>
+				<section class="littleMainBox">
+				  <div class="mainDiv">
+					{typeof exp.body === "string" ? (
+					  <p class="textPg">{exp.body}</p>
+					) : (
+					  exp.body.map((item) => <p class="textPg">{item}</p>)
+					)}
+				  </div>
+				  <div class="oneImage">
+					  <img src={exp.image?.[0]} alt="imagen" />
+				  </div>
+				</section>
+				<section>
+				  <p>{exp.link}</p>
+				  <p class="date">{exp.date}</p>
+				</section>
+			  </section>
+			</a>
+		  ))}
+		  </div>
 	</main>
 </Layout>
