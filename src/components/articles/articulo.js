@@ -1,5 +1,22 @@
 const ARTICULOS = [
 	{
+		ident: "Halloween2024",
+		title: 'Fiesta de Halloween 2024',
+		body: [
+			'Por motivos de la fiesta de Halloween un grupo de mamis, han estado trabajando en para montar una decoración espectacular. Para tener una fiesta, que se había perdido y entre todos, con el apoyo del cole, la vamos a recuperar para el disfrute de los niños.',
+			'Por culpa de las inclemencias del tiempo, nos hemos visto obligados a aplazar la fiesta para el miércoles día 6 de noviembre, a partir de las 17.15h. Sabemos que al día siguiente hay colegio, pero sería espectacular que entre todos hagamos un esfuerzo para llenar nuestro patio y que las familias del cole disfrutéis un rato.',
+			'En la fiesta vais a encontrar una actividad de manualidades para vuestros niños, una barra con bebidas, dulces de Halloween y golosinas, además habrá un puesto de palomitas y algodón de azúcar. Y tendremos un castillo hinchable, del tipo gymkana para el disfrute de todos los niños.',
+			'Os esperamos, será un día de fiesta y disfrute de nuestra familia del cole.',
+			'Un saludo y gracias',
+			'AMPA Fernando Magallanes'
+		],
+		date: '01-11-2024',
+		description: 'activities',
+		image: [
+			"/halloween24/halloween24.jpg",
+		]
+	},
+	{
 		ident: "fiestaFinDeCurso",
 		title: "Fiesta de Fin de Curso 2023-2024",
 		body: [
@@ -75,7 +92,6 @@ const ARTICULOS = [
 		date: '26-03-2024',
 		description: 'news'
 	},
-
 ]
 
 export default ARTICULOS
