@@ -1,7 +1,7 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import ARTICULOS from '../components/articles/articulo'
+import ARTICULOS from '../components/articles/articulo';
 import '../css/main.css';
+import Layout from '../layouts/Layout.astro';
 
 type Articulo = {
 	title: string,
@@ -19,8 +19,6 @@ let recopilacion: Articulo[] = [];
 ARTICULOS.map((exp) => {
 		recopilacion.push({...exp})
 })
-
-console.log(recopilacion, 'rec')
 
 ---
 
