@@ -1,6 +1,7 @@
 ---
-import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
+import Header from '../components/Header.astro'
+import Nav from '../components/Nav.astro'
 interface Props {
 	title: string
 	description: string
@@ -21,6 +22,7 @@ const { title, description } = Astro.props;
 	</head>
 	<body>
 		<Header />
+		<Nav />
 		<slot />
 		<Footer />
 	</body>
@@ -47,6 +49,7 @@ const { title, description } = Astro.props;
 		width: 80%;
 		margin-top: 10px;
 	}
+	
 	h1 {
 		color: var(--main-yellow);
 		background-color: var(--main-blue);
@@ -61,5 +64,13 @@ const { title, description } = Astro.props;
 	p{
 		font-weight: bold;
 		color: var(--main-blue);
+	}
+	@media (width <= 600px){
+		body{
+			width: 100%;
+		}
+		h1 {
+			border-radius: 0;
+		}
 	}
 </style>

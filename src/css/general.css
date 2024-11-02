@@ -3,7 +3,7 @@ h1 {
   color: var(--main-textBlue);
   font-weight: bold;
 }
-.mainBlock {
+.mainFooter {
   background-color: var(--main-blue);
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@ h1 {
 
 /* Css header--------------------- */
 
-.imagenes {
+.mainImages {
   background-color: var(--main-blue);
   border-radius: 15px;
   height: auto;
@@ -52,7 +52,7 @@ h1 {
   height: 200px;
 }
 
-.menu {
+.mainNav {
   background-color: var(--main-yellow);
   margin-top: 10px;
   margin-bottom: 10px;
@@ -95,19 +95,25 @@ a {
 }
 
 @media (width <= 600px) {
-  .imagenes {
+  .mainFooter {
+    border-radius: 0;
+  }
+  .mainImages {
     display: flex;
     flex-direction: column;
+    border-radius: 0;
   }
   .rrss {
     display: flex;
     flex-direction: row;
     padding-bottom: 10px;
+    gap: 10px;
   }
-  .menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .mainNav {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    border-radius: 0;
   }
 }
