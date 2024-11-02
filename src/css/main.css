@@ -17,12 +17,6 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-@media (width <= 600px) {
-  .mainBoxGrid {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .mainLitleBox {
   box-sizing: border-box;
   height: 400px;
@@ -83,4 +77,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (width <= 600px) {
+  .mainBoxGrid {
+    display: flex;
+    flex-direction: column;
+  }
 }
