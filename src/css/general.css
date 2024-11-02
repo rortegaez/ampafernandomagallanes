@@ -93,3 +93,21 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+@media (width <= 600px) {
+  .imagenes {
+    display: flex;
+    flex-direction: column;
+  }
+  .rrss {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
