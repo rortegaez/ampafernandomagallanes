@@ -1,0 +1,58 @@
+.mainBoxGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  max-height: 820px;
+  overflow: hidden;
+}
+.mainLitleBox {
+  box-sizing: border-box;
+  height: 400px;
+  background-color: var(--main-orange);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px 15px 10px;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+.maintitle {
+  box-sizing: border-box;
+  margin: 8px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--main-blue);
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+}
+.oneImage {
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+.textPg {
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.date {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@media (width <= 600px) {
+  .mainBoxGrid {
+    display: flex;
+    flex-direction: column;
+    max-height: 1000px;
+  }
+  .mainLitleBox {
+    max-height: 250px;
+    overflow: hidden;
+  }
+}
