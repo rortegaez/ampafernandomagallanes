@@ -1,0 +1,25 @@
+.mainNav {
+  background-color: var(--main-yellow);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.textHeader:hover {
+  scale: 130%;
+}
+
+@media (width <= 600px) {
+  .mainNav {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    border-radius: 0;
+  }
+}

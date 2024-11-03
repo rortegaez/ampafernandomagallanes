@@ -1,0 +1,47 @@
+.mainImages {
+  background-color: var(--main-blue);
+  border-radius: 15px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rrss {
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(194 208 248 /0.3);
+  border-radius: 15px;
+  &:last-child {
+    margin-top: 10px;
+  }
+  &:hover {
+    scale: 130%;
+  }
+}
+.logo {
+  height: 250px;
+  width: 250px;
+}
+.colegio {
+  height: 200px;
+}
+a {
+  text-decoration: none;
+}
+@media (width <= 600px) {
+  .mainImages {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .rrss {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    gap: 10px;
+  }
+}
