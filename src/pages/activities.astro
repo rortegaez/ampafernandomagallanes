@@ -1,7 +1,7 @@
 ---
+import ARTICULOS from '../components/articles/articulo';
+import '../css/main.css';
 import Layout from "../layouts/Layout.astro";
-import '../css/main.css'
-import ARTICULOS from '../components/articles/articulo'
 
 type Articulo = {
 	title: string,
@@ -21,6 +21,8 @@ ARTICULOS.map((exp) => {
 		recopilacion.push({...exp})
 	}
 })
+
+console.log(recopilacion, 'probando')
 ---
 <Layout
 	title="AMPA Fernando Magallanes de Marbella"
