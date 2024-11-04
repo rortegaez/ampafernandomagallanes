@@ -16,14 +16,19 @@ const paginaActual = Astro.url.pathname.split('/').pop()
 
 let recopilacion: Articulo[] = [];
 
-ARTICULOS.map((exp) => {
-	if(exp.description === paginaActual){
-		recopilacion.push({...exp})
-	}
-})
+function reajuste (){
+  ARTICULOS.map((exp) => {
+    if(exp.description === paginaActual){
+      recopilacion.push({...exp})
+    }
+  })
 
-console.log(recopilacion, 'probando')
+}
 ---
+useEffect(() => {
+  reajuste()
+},[])
+
 <Layout
 	title="AMPA Fernando Magallanes de Marbella"
 	description="Las noticias y eventos que sucedan en el AMPA y el Cole">
