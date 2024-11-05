@@ -1,0 +1,42 @@
+.mainbox {
+  box-sizing: border-box;
+  background-color: var(--main-orange);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+.oneSection {
+  display: flex;
+  flex-direction: column;
+}
+.imagesBox {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+.images {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.littleBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.maintitle {
+  color: var(--main-blue);
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
+  padding: 5px;
+}

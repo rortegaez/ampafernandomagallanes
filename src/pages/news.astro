@@ -1,8 +1,8 @@
 ---
 
+import NEWS from '../components/articles/news';
+import '../css/activitiesNews.css';
 import Layout from "../layouts/Layout.astro";
-import '../css/main.css'
-import ARTICULOS from '../components/articles/articulo'
 
 type Articulo = {
 	title: string,
@@ -13,7 +13,7 @@ type Articulo = {
 	link?: string;
 }
 
-const paginaActual = Astro.url.pathname.split('/').pop()
+/* const paginaActual = Astro.url.pathname.split('/').pop()
 
 let recopilacion: Articulo[] = [];
 
@@ -21,15 +21,14 @@ ARTICULOS.map((exp) => {
 	if(exp.description === paginaActual){
 		recopilacion.push({...exp})
 	}
-})
-
+}) */
 ---
 <Layout
 	title="AMPA Fernando Magallanes de Marbella"
 	description="Las noticias y eventos que sucedan en el AMPA y el Cole">
 	<section>
 		<h1>Noticias</h1>
-		{recopilacion.map((exp) => (
+		{NEWS.map((exp) => (
 			<section class="mainbox">
           <h2 class="maintitle">{exp.title}</h2>
           <section class="oneSection">
@@ -47,7 +46,7 @@ ARTICULOS.map((exp) => {
             </div>
           </section>
           <section>
-            <p>{exp.link}</p>
+            {/* <p>{exp.link}</p> */}
             <p class="textPg">{exp.date}</p>
           </section>
         </section>
