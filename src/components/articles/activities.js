@@ -1,7 +1,5 @@
 const ACTIVITIES = [
   {
-
-  {
 		ident: "Halloween2024",
 		title: 'Fiesta de Halloween 2024',
 		body: [
