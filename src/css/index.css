@@ -19,6 +19,22 @@
   margin-bottom: 5px;
   overflow: hidden;
 }
+.mainLitleBox:hover .subText {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.subText {
+  visibility: hidden;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: var(--main-blue);
+  color: var(--main-orange);
+  position: absolute;
+  width: 20%;
+  /* height: 50%; */
+}
 .maintitle {
   box-sizing: border-box;
   margin: 8px;

@@ -1,0 +1,57 @@
+---
+import ARTICULOS from '../components/articles/articulo';
+import '../css/index.css';
+import Layout from '../layouts/Layout.astro';
+
+type Articulo = {
+	title: string,
+	description: string;
+	body: string | string[];
+	image?: string[],
+	date?: string;
+	link?: string;
+}
+
+// const paginaActual = Astro.url.pathname.split('/').pop()
+
+let recopilacion: Articulo[] = [];
+
+ARTICULOS.map((exp) => {
+		recopilacion.push({...exp})
+})
+
+---
+
+<Layout
+	title="AMPA Fernando Magallanes de Marbella",
+	description="Asociación de Padres y Madres Fernando Magallanes del CEIP Santa Teresa de Marbella">
+	<main>
+		<h1>Bienvenidos</h1>
+		<div class="mainBoxGrid">
+		{recopilacion.map((exp) => (
+			<a href={exp.description}>
+			  <section class="mainLitleBox">
+				<h2 class="maintitle">{exp.title}</h2>
+				</section>
+				<section class="littleMainBox">
+				  <div class="mainDiv">
+					{typeof exp.body === "string" ? (
+					  <p class="textPg">{exp.body}</p>
+					) : (
+					  exp.body.map((item) => <p class="textPg">{item}</p>)
+					)}
+				  </div>
+				<div class="oneImage">
+					<img src={exp.image?.[0]} alt="imagen" class="img" />
+				</div>
+				<section>
+				  <p>{exp.link}</p>
+				  <p class="date">{exp.date}</p>
+				</section>
+			  </section>
+			</a>
+		  ))}
+			</>
+		  </div>
+	</main>
+</Layout>
