@@ -27,6 +27,11 @@
   height: 200px;
   object-fit: contain;
 }
+.images:hover {
+  width: 700px;
+  height: auto;
+  object-fit: auto;
+}
 .littleBox {
   display: flex;
   flex-direction: column;
