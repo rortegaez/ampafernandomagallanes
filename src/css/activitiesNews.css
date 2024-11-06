@@ -10,17 +10,34 @@
   margin-top: 10px;
   border-radius: 15px;
 }
-.oneSection {
-  display: flex;
-  flex-direction: column;
+.maintitle {
+  color: var(--main-blue);
+  font-weight: bold;
+  font-size: large;
+  text-decoration: underline;
+  padding: 5px;
 }
+.oneSection {
+  /* display: flex;
+  flex-direction: column; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.mainDiv {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+/* aqui esta parte de los cambios que no funcionan bien y el siguiente nivel */
 .imagesBox {
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 3px;
   overflow-x: auto;
+  margin-left: 15px;
+  align-content: center;
+  justify-content: center;
 }
 .images {
   width: 200px;
@@ -37,11 +54,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.maintitle {
-  color: var(--main-blue);
-  font-weight: bold;
-  font-size: large;
-  text-decoration: underline;
-  padding: 5px;
 }
