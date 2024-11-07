@@ -18,10 +18,8 @@
   padding: 5px;
 }
 .oneSection {
-  /* display: flex;
-  flex-direction: column; */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 .mainDiv {
   grid-column-start: 1;
@@ -29,19 +27,17 @@
 }
 /* aqui esta parte de los cambios que no funcionan bien y el siguiente nivel */
 .imagesBox {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  display: grid;
-  grid-template-columns: 100%;
+  display: flex;
+  flex-direction: row;
   gap: 3px;
-  overflow-x: auto;
+  flex-wrap: wrap;
+  overflow: auto;
   margin-left: 15px;
-  align-content: center;
   justify-content: center;
 }
 .images {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
 }
 .images:hover {
