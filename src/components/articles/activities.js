@@ -5,7 +5,7 @@ const ACTIVITIES = [
 		subTitle: "Después de un aplazamiento que a todos nos molesto mucho, llego el momento de hacer nuestra fiesta para el disfrute de mayores y niños en su colegio.",
 		body:[
 			'Después de un aplazamiento forzoso por culpa de las inclemencias del tiempo, por fin pudimos celebrar nuestra fiesta de Halloween aunque haya sido con retraso.',
-			'Fue una tarde donde las familias del barrio pasaron de un rato agradable, disfrutando de las actividades que se organizaron. Pudieron subirse al Castillo Hinchable del tipo gymkana y hacer manualidades juntos a los papis que fueron voluntario a ayudar.',
+			'Fue una tarde donde las familias del barrio pasaron de un rato agradable, disfrutando de las actividades que se organizaron. Pudieron subirse al Castillo Hinchable del tipo gymkana y hacer manualidades juntos a los papis que fueron voluntario a ayudar. Las manualidades debebemos de agradecérselas al Exmo. Ayuntamiento de Marbella, ya que, se pudieron realizar gracias a la subvención que recibimos para este tipo de actividades.',
 			'A la vez pudieron tomarse un refresco, comerse las típicas golosinas, juntos a una brocheta de donetes de fue el gran éxito de la noche. Durante la noche nos acompaño Rosalia, quien hizo las delicias con su algodón de azúcar y sus palomitas, mientras pintaba las caras a los más pequeños.',
 			'Desde el AMPA agradecer a todos las familias que se quisieron pasar por nuestra fiesta que se organizo con tanto esfuerzo, haciéndonos sentir que los esfuerzos sirven para algo y conseguir que pase todo el mundo un rato agradable.',
 			'Os esperamos en la próxima… NAVIDAD.'
