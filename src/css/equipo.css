@@ -1,0 +1,17 @@
+.idemMainBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: red;
+  height: 100px;
+}
+
+.idem {
+  height: 500px;
+  background-color: aquamarine;
+  border: 5px;
+}
+
+.idemName {
+  background-color: greenyellow;
+}

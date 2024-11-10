@@ -32,6 +32,13 @@
 a {
   text-decoration: none;
 }
+@media (min-width: 600px) and (max-width: 1000px) {
+  .colegio {
+    display: none;
+    /* opacity: 0;
+    pointer-events: none; */
+  }
+}
 @media (width <= 600px) {
   .mainImages {
     display: flex;
