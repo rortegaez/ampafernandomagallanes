@@ -2,6 +2,15 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+.textIdent {
+  background-color: var(--main-yellow);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 15px;
 }
 .identMainBox {
   display: flex;
