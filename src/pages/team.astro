@@ -12,11 +12,9 @@ import Layout from "../layouts/Layout.astro";
 		<div class="boxAll">
 		{COMPANIONS.map((ident) => (
 			<section class="identMainBox">
-				{/* <div class="singleIdentBox"> */}
 					<h2 class="identName">{ident.name}</h2>
 					<img src={ident.photo} alt={ident.name} class="photoCompa" />
 					<h5 class="responsability">{ident.responsability}</h5>
-				{/* </div> */}
 		</section>
 		))}
 		</div>
