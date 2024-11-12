@@ -2,14 +2,17 @@ const COMPANIONS = [
 	{
 		name: "Raúl",
 		responsability: "Presidente",
-		photo: "/companios/raul.jpg",
-		text: "El AMPA no esta solo para hacer fiestas."
+		photo: "/companions/raul.jpg",
 	},
 	{
 		name: "Salima",
 		responsability: "Vocal",
 		photo: "/companions/salima.jpg",
-		text: "Vamos viendo"
+	},
+	{
+		name: "Patri",
+		responsability: "Vocal",
+		photo: "/companions/patri.jpg"
 	}
 ]
 
