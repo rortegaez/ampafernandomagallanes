@@ -10,8 +10,8 @@ const NEWS = [
 		],
 		description: "news",
 		date: "12-11-2024",
-		images: [
-			"/imgGlobal/logoSinFondo.png"
+		image:[
+			'/imgGlobal/logoSinFondo.png',
 		]
 	},
 	/* {
