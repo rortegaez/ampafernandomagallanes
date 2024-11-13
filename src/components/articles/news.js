@@ -1,4 +1,34 @@
 const NEWS = [
+	{
+		ident: "cierreColegioDana",
+		title: "Suspensión de las clases por la DANA",
+		subTitle: "La alerta roja por lluvia indicada por la AEMET, han obligado que las clases se hayan tenido que suspender mañana día 13/11",
+		body: [
+			"Ante los informes técnicos y la elevación a fase de emergencia situación operativa 1 del Plan de Emergencia ante el riesgo de inundaciones, se le comunica que mañana día 13 de noviembre de 2024 queda suspendida la actividad presencial en su centro educativo, por lo que no debe desplazarse al mismo. En caso de que la suspensión deba prolongarse más allá del día 13 se le comunicará por este mismo medio.",
+			"Este es el comunicado que nos ha mandado el director del colegio para informarnos que desde la Junta de Andalucia, se ha tomado la decisión de suspender las clases, por la alerta roja emitida por a la AEMET.",
+			"Solo decirle a todos los que formamos la familia del colegio Santa Teresa, que tengan cuidado y que nos vemos el próximo día de clase."
+		],
+		description: "news",
+		date: "12-11-2024",
+		images: [
+			"/imgGlobal/logoSinFondo.png"
+		]
+	},
+	/* {
+		ident: "reclamacionAyto",
+		title: "Documentación enviada al Ayuntamiento",
+		subTitle: "En el día de hoy, hemos enviado a través de registro de entrada varias peticiones al Exmo. Ayuntamiento de Marbella, sobre temas que influyen al colegio y a nuestra barriada.",
+		body: [
+			"Ante los informes técnicos y la elevación a fase de emergencia situación operativa 1 del Plan de Emergencia ante el riesgo de inundaciones, se le comunica que mañana día 13 de noviembre de 2024 queda suspendida la actividad presencial en su centro educativo, por lo que no debe desplazarse al mismo. En caso de que la suspensión deba prolongarse más allá del día 13 se le comunicará por este mismo medio.",
+			"Este es el comunicado que nos ha mandado el director del colegio para informarnos que desde la Junta de Andalucia, se ha tomado la decisión de suspender las clases, por la alerta roja emitida por a la AEMET.",
+			"Solo decirle a todos los que formamos la familia del colegio Santa Teresa, que tengan cuidado y que nos vemos el próximo día de clase."
+		],
+		description: "news",
+		date: "12-11-2024",
+		images: [
+			"/imgGlobal/logoSinFondo.png"
+		]
+	}, */
   {
 		ident: "fiestaFinDeCurso",
 		title: "Fiesta de Fin de Curso 2023-2024",
