@@ -1,7 +1,6 @@
 
 const ARTICULOS = [
 	{
-<<<<<<< HEAD
 		ident: 'SillasYMesasSubvencion',
 		title: 'Sillas y Mesas a través de subvención',
 		subTitle: 'Esta son las sillas y mesas que hemos conseguido a través de la subvención que nos dío el ayuntamiento para material inventariable.',
@@ -13,7 +12,9 @@ const ARTICULOS = [
 		date: '10-12-2024',
 		image: [
 			'/sillasymesas/sillasymesas.jpg'
-=======
+		]
+	},
+	{
 		ident: "cierreColegioDana",
 		title: "Suspensión de las clases por la DANA",
 		subTitle: "La alerta roja por lluvia indicada por la AEMET, han obligado que las clases se hayan tenido que suspender mañana día 13/11",
@@ -26,7 +27,6 @@ const ARTICULOS = [
 		date: "12-11-2024",
 		image:[
 			'/imgGlobal/logoSinFondo.png',
->>>>>>> ff92ee9a71a8a65259d7902a6621e766b264e241
 		]
 	},
 	{
