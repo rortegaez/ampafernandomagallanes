@@ -12,6 +12,36 @@ const NEWS = [
 		image: [
 			'/sillasymesas/sillasymesas.jpg'
 		]
+		},
+		{
+		ident: "cierreColegioDana",
+		title: "Suspensión de las clases por la DANA",
+		subTitle: "La alerta roja por lluvia indicada por la AEMET, han obligado que las clases se hayan tenido que suspender mañana día 13/11",
+		body: [
+			"Ante los informes técnicos y la elevación a fase de emergencia situación operativa 1 del Plan de Emergencia ante el riesgo de inundaciones, se le comunica que mañana día 13 de noviembre de 2024 queda suspendida la actividad presencial en su centro educativo, por lo que no debe desplazarse al mismo. En caso de que la suspensión deba prolongarse más allá del día 13 se le comunicará por este mismo medio.",
+			"Este es el comunicado que nos ha mandado el director del colegio para informarnos que desde la Junta de Andalucia, se ha tomado la decisión de suspender las clases, por la alerta roja emitida por a la AEMET.",
+			"Solo decirle a todos los que formamos la familia del colegio Santa Teresa, que tengan cuidado y que nos vemos el próximo día de clase."
+		],
+		description: "news",
+		date: "12-11-2024",
+		image:[
+			'/imgGlobal/logoSinFondo.png',
+		]
+	},
+	{
+		ident: "reclamacionAytoLimpieza",
+		title: "Documentación enviada al Ayuntamiento",
+		subTitle: "En el día de hoy, hemos enviado a través de registro de entrada varias peticiones al Exmo. Ayuntamiento de Marbella, sobre temas que influyen al colegio y a nuestra barriada.",
+		body: [
+			"Tal como nos pidieron los diferentes tutores y tras hablar con la dirección del colegio. Hemos enviado un escrito al ayuntamiento, reclamando que nos mande el servicio de limpieza en el turno de mañana, el cual, está sin cubrir completamente desde el año pasado. Con el pertinente perjuicio, pero sobre todo en la limpieza de los baños, con este escrito tenemos la esperanza que se reponga el servicio o nos den alguna indicación de cuándo será esa reposición.",
+			"Tras algunos comentarios de varios papás del cole, le hemos pedido que reparen las farolas de la calle Magallanes a la altura del colegio, que nos indicaba que estaban todas apagadas. Además, hemos pedido que la barandilla superior del parque infantil de la plaza Marques del Turia, se revise, ya que vimos y nos indicaron, que había dos barrotes verticales que faltaban. Quedando un hueco por donde podría caerse un niño a diferente altura.",
+			"Confiamos en que el Exmo. Ayuntamiento de Marbella, con la mayor brevedad posible, nos contestarán y pondrán los medios necesarios para solucionar dichos problemas."
+		],
+		description: "news",
+		date: "12-11-2024",
+		images: [
+			"/imgGlobal/logoSinFondo.png"
+		]
 	},
   {
 		ident: "fiestaFinDeCurso",

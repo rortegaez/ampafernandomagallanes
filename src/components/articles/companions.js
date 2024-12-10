@@ -5,6 +5,11 @@ const COMPANIONS = [
 		photo: "/companions/raul.jpg",
 	},
 	{
+		name: 'Sonia',
+		responsability: 'Vicepresidenta',
+		photo: '/companions/sonia.jpg'
+	},
+	{
 		name: "Alejandro",
 		responsability: "Secretario",
 		photo: "/companions/alejandro.jpg"

@@ -1,6 +1,7 @@
 
 const ARTICULOS = [
 	{
+<<<<<<< HEAD
 		ident: 'SillasYMesasSubvencion',
 		title: 'Sillas y Mesas a través de subvención',
 		subTitle: 'Esta son las sillas y mesas que hemos conseguido a través de la subvención que nos dío el ayuntamiento para material inventariable.',
@@ -12,6 +13,20 @@ const ARTICULOS = [
 		date: '10-12-2024',
 		image: [
 			'/sillasymesas/sillasymesas.jpg'
+=======
+		ident: "cierreColegioDana",
+		title: "Suspensión de las clases por la DANA",
+		subTitle: "La alerta roja por lluvia indicada por la AEMET, han obligado que las clases se hayan tenido que suspender mañana día 13/11",
+		body: [
+			"Ante los informes técnicos y la elevación a fase de emergencia situación operativa 1 del Plan de Emergencia ante el riesgo de inundaciones, se le comunica que mañana día 13 de noviembre de 2024 queda suspendida la actividad presencial en su centro educativo, por lo que no debe desplazarse al mismo. En caso de que la suspensión deba prolongarse más allá del día 13 se le comunicará por este mismo medio.",
+			"Este es el comunicado que nos ha mandado el director del colegio para informarnos que desde la Junta de Andalucia, se ha tomado la decisión de suspender las clases, por la alerta roja emitida por a la AEMET.",
+			"Solo decirle a todos los que formamos la familia del colegio Santa Teresa, que tengan cuidado y que nos vemos el próximo día de clase."
+		],
+		description: "news",
+		date: "12-11-2024",
+		image:[
+			'/imgGlobal/logoSinFondo.png',
+>>>>>>> ff92ee9a71a8a65259d7902a6621e766b264e241
 		]
 	},
 	{

@@ -57,9 +57,9 @@
   font-weight: normal;
   margin-bottom: 10px;
 }
-.date {
-  margin-left: 20px;
-  margin-right: 20px;
+.dateIndex {
+  margin-top: 10px;
+  font-size: x-small;
 }
 
 @media (width <= 600px) {
