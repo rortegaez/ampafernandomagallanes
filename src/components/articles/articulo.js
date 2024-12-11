@@ -1,6 +1,21 @@
 
 const ARTICULOS = [
 	{
+		ident: 'sillasMesas24',
+		title: 'Sillas y Mesas a través de la subvención del Ayuntamiento',
+		subTitle: 'Gracias a la subvención que nos concedio el Ayuntamiento de Marbella, hemos podido adquirir estas sillas y mesas para cualquiera de los eventos del colegio.',
+		body: [
+			'Gracias a la subvención que nos concedió el Ayuntamiento de Marbella, hoy podemos disfrutar de sillas y mesas para los próximos eventos del colegio. Tanto los realizados por el AMPA, como para el uso de las actividades que las pueda necesitar el colegio.',
+			'Las sillas y mesas se han podido adquirir gracias a la subvención que entrega el Ayuntamiento de Marbella, a la cual, pudimos acceder, al cumplir una serie de requisitos. Esta subvención constaba de una partida para material inventariable. Tras hablar con el colegio y viendo los eventos que se nos presentaban, pensamos que la mejor inversión sería esta, evitando tener que mover tanto mobiliario escolar en cada evento.',
+			'Con ello queremos agradecer al Ayuntamiento de Marbella, haber recibido esta subvención, comprometiéndonos en trabajar para que en el futuro volvamos a cumplir con las condiciones para poder volver optar a ello y seguir mejorando nuestro colegio desde AMPA.'
+		],
+		date: '10-12-2024',
+		description: 'news',
+		image: [
+			'/sillasymesas/sillasymesas24.jpg'
+		]
+	},
+	{
 		ident: "cierreColegioDana",
 		title: "Suspensión de las clases por la DANA",
 		subTitle: "La alerta roja por lluvia indicada por la AEMET, han obligado que las clases se hayan tenido que suspender mañana día 13/11",
