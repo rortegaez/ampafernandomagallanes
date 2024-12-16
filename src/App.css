@@ -1,0 +1,15 @@
+#root {
+  background-color: var(--bg-back);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  list-style: none;
+  --bg-back: #cfe9f7;
+  --main-blue: #0054a8;
+  --main-littleBlue: #60abf6;
+  --main-textBlue: #cde3f8;
+  --main-yellow: #f7b925;
+  --main-gray: #c2c1c4;
+  --main-orange: #ede3cd;
+}

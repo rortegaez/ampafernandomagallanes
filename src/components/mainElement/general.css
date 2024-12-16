@@ -1,0 +1,84 @@
+/* css header */
+.mainImages {
+  background-color: var(--main-blue);
+  border-radius: 15px;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.rrss {
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(194 208 248 /0.3);
+  border-radius: 15px;
+  &:last-child {
+    margin-top: 10px;
+  }
+  &:hover {
+    scale: 130%;
+  }
+}
+.logo {
+  height: 250px;
+  width: 250px;
+}
+.colegio {
+  height: 200px;
+}
+a {
+  text-decoration: none;
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+  .colegio {
+    display: none;
+    /* opacity: 0;
+    pointer-events: none; */
+  }
+}
+@media (width <= 600px) {
+  .mainImages {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .rrss {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    gap: 10px;
+  }
+}
+
+/* css nav */
+.mainNav {
+  background-color: var(--main-yellow);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  padding-top: 0.1vh;
+  padding-bottom: 0.1vh;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: large;
+  font-weight: bold;
+}
+
+.textHeader:hover {
+  scale: 130%;
+}
+
+@media (width <= 600px) {
+  .mainNav {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    border-radius: 0;
+  }
+}
