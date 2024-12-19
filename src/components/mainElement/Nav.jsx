@@ -1,30 +1,31 @@
+import { Link } from "react-router-dom";
 import "./general.css";
 
 export const Nav = () => {
   return (
-    <div className="mainNav">
-      <a href="/">
-        <p className="textHeader">Inicio</p>
-      </a>
-      <a href="/news">
-        <p className="textHeader">Noticias</p>
-      </a>
-      <a href="/activities">
-        <p className="textHeader">Actividades</p>
-      </a>
+    <nav className="mainNav">
+      <Link to="/" className="textHeader">
+        Inicio
+      </Link>
+      <Link to="/news" className="textHeader">
+        Noticias
+      </Link>
+      <Link to="/activities" className="textHeader">
+        Actividades
+      </Link>
       <a
         href="https://blogsaverroes.juntadeandalucia.es/colegiosantateresa/"
         target="_blank"
         rel="noopener"
       >
-        <p className="textHeader">Nuestro Cole</p>
+        Nuestro Cole
       </a>
-      <a href="/team">
-        <p className="textHeader">Equipo</p>
-      </a>
-      <a href="/contact">
-        <p className="textHeader">Contacto con nosotros</p>
-      </a>
-    </div>
+      <Link to="/team" className="textHeader">
+        Equipo
+      </Link>
+      <Link to="/Contact" className="textHeader">
+        Contacta con nosotros
+      </Link>
+    </nav>
   );
 };

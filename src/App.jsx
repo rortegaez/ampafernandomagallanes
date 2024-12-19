@@ -1,7 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Activities } from "./components/page/Activities";
 import { Contact } from "./components/page/Contact";
-import { HomePage } from "./components/page/HomePage";
+import { Home } from "./components/page/Home";
+import { Layout } from "./components/page/Layout";
 import { News } from "./components/page/News";
 import { Team } from "./components/page/Team";
 
@@ -12,11 +13,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route index element={<HomePage />} />
-          <Route path="/news" element={<News />} />
-          <Route path="/activities" element={<Activities />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/activities" element={<Activities />} />
+            <Route path="/team" element={<Team />} />
+            <Route path="/contact" element={<Contact />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
