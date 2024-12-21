@@ -1,6 +1,6 @@
 import ARTICULOS from "../article/articulos";
 
-import "./css/Home.css";
+import "./css/home.css";
 
 export const Home = () => {
   return (
@@ -25,7 +25,7 @@ export const Home = () => {
                 )}
               </div>
               <div className="oneImage">
-                <img src={exp.image?.[0]} alt="imagen" />
+                <img src={exp.image?.[0]} alt="imgInicio" />
               </div>
               <section>
                 <p>{exp.link}</p>

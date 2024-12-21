@@ -1,4 +1,19 @@
 .mainBoxGrid {
+  background-color: red;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  max-height: 820px;
+  overflow: hidden; */
+}
+
+.imgInicio {
+  object-fit: contain;
+  height: 10vh;
+}
+/* .mainBoxGrid {
+  background-color: red;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(3, 1fr);
@@ -8,6 +23,7 @@
 }
 
 .mainLitleBox {
+  background-color: green;
   box-sizing: border-box;
   height: 400px;
   background-color: var(--main-orange);
@@ -20,6 +36,7 @@
   margin-bottom: 5px;
   overflow: hidden;
 }
+
 .mainLitleBox:hover .subText {
   visibility: visible;
   opacity: 1;
@@ -76,3 +93,4 @@
     display: none;
   }
 }
+ */
