@@ -1,29 +1,18 @@
 .mainBoxGrid {
-  background-color: red;
-  /* display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
   max-height: 820px;
-  overflow: hidden; */
+  overflow: hidden;
 }
 
 .imgInicio {
   object-fit: contain;
   height: 10vh;
 }
-/* .mainBoxGrid {
-  background-color: red;
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  max-height: 820px;
-  overflow: hidden;
-}
 
 .mainLitleBox {
-  background-color: green;
   box-sizing: border-box;
   height: 400px;
   background-color: var(--main-orange);
@@ -35,6 +24,25 @@
   margin-top: 5px;
   margin-bottom: 5px;
   overflow: hidden;
+}
+
+.mainTitle {
+  box-sizing: border-box;
+  margin: 8px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--main-blue);
+  margin: 5px;
+}
+
+.oneImage {
+  box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.oneImage .imgInicio {
+  object-fit: contain;
+  height: 250px;
 }
 
 .mainLitleBox:hover .subText {
@@ -53,21 +61,11 @@
   position: absolute;
   width: 20%;
 }
-.maintitle {
-  box-sizing: border-box;
-  margin: 8px;
-  font-weight: bold;
-  text-decoration: underline;
-  color: var(--main-blue);
-}
-.mainDiv {
-  display: flex;
-  flex-direction: column;
-}
-.oneImage {
-  box-sizing: border-box;
-  margin-top: 10px;
-}
+
+/*
+
+
+
 .textPg {
   display: flex;
   flex-direction: column;
@@ -77,6 +75,10 @@
 .dateIndex {
   margin-top: 10px;
   font-size: x-small;
+}
+.mainDiv {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (width <= 600px) {

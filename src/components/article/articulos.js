@@ -11,7 +11,7 @@ const ARTICULOS = [
 		date: '10-12-2024',
 		description: 'news',
 		image: [
-			'/sillasymesas/sillasymesas24.jpg'
+			'/sillasymesas/sillasymesas.jpg'
 		]
 	},
 	{

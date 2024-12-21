@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import ARTICULOS from "../article/articulos";
 
 import "./css/home.css";
@@ -8,31 +10,19 @@ export const Home = () => {
       <h1>Bienvenidos</h1>
       <div className="mainBoxGrid">
         {ARTICULOS.map((exp) => (
-          <a key={exp.ident} href={exp.description}>
-            <section className="mainLitleBox">
+          <div className="mainLitleBox" key={exp.ident}>
+            <Link to={`/${exp.description}`}>
               <h2 className="mainTitle">{exp.title}</h2>
-            </section>
-            <section className="littleMainBox">
-              <div className="mainDiv">
-                {typeof exp.body === "string" ? (
-                  <p className="textPg">{exp.body}</p>
-                ) : (
-                  exp.body.map((item) => (
-                    <p className="textPg" key={item}>
-                      {item}
-                    </p>
-                  ))
-                )}
-              </div>
+              <p className="subText">{exp.subTitle}</p>
               <div className="oneImage">
-                <img src={exp.image?.[0]} alt="imgInicio" />
+                <img
+                  className="imgInicio"
+                  src={exp.image?.[0]}
+                  alt={exp.image}
+                />
               </div>
-              <section>
-                <p>{exp.link}</p>
-                <p className="date">{exp.date}</p>
-              </section>
-            </section>
-          </a>
+            </Link>
+          </div>
         ))}
       </div>
     </>
