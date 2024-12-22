@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 import ARTICULOS from "../article/articulos.js";
 
-import "./css/news.css";
+import "./css/newsActivities.css";
 
 export const News = () => {
   const [news, setNews] = useState([]);
@@ -19,16 +19,16 @@ export const News = () => {
   return (
     <>
       <h1>News</h1>
-      <div className="newsContainer">
+      <div className="textContainer">
         {news.map((items) => (
-          <div key={items.ident} className="news">
+          <div key={items.ident} className="text">
             <h2>{items.title}</h2>
             {items.body.map((item) => (
               <p key={item}>{item}</p>
             ))}
             <div>
               {items.image?.map((imgs) => (
-                <img src={imgs} alt="photo" key={imgs} className="imgNews" />
+                <img src={imgs} alt="photo" key={imgs} className="imgText" />
               ))}
             </div>
             <h5>{items.date}</h5>
