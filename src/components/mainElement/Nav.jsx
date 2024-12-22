@@ -18,13 +18,13 @@ export const Nav = () => {
         target="_blank"
         rel="noopener"
       >
-        Nuestro Cole
+        <p className="textHeader">Nuestro cole</p>
       </a>
       <Link to="/team" className="textHeader">
         Equipo
       </Link>
       <Link to="/Contact" className="textHeader">
-        Contacta con nosotros
+        Contactanos
       </Link>
     </nav>
   );

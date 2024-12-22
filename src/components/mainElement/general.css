@@ -28,6 +28,7 @@
   width: 250px;
 }
 .colegio {
+  object-fit: contain;
   height: 200px;
 }
 a {
@@ -36,11 +37,12 @@ a {
 @media (min-width: 600px) and (max-width: 1000px) {
   .colegio {
     display: none;
-    /* opacity: 0;
-    pointer-events: none; */
   }
 }
 @media (width <= 600px) {
+  .colegio {
+    display: none;
+  }
   .mainImages {
     display: flex;
     flex-direction: column;
@@ -69,6 +71,11 @@ a {
   font-weight: bold;
 }
 
+.textHeader {
+  margin: 2vw;
+  font-size: 2vw;
+}
+
 .textHeader:hover {
   scale: 130%;
 }
@@ -80,6 +87,9 @@ a {
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
     border-radius: 0;
+  }
+  .textHeader {
+    font-size: 4vw;
   }
 }
 

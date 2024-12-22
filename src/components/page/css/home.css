@@ -7,14 +7,9 @@
   overflow: hidden;
 }
 
-.imgInicio {
-  object-fit: contain;
-  height: 10vh;
-}
-
 .mainLitleBox {
   box-sizing: border-box;
-  height: 400px;
+  height: 40vw;
   background-color: var(--main-orange);
   display: flex;
   flex-direction: column;
@@ -26,23 +21,23 @@
   overflow: hidden;
 }
 
+.oneImage {
+  margin: 5vh;
+}
+
+.imgInicio {
+  object-fit: contain;
+  width: 20vw;
+}
+
 .mainTitle {
   box-sizing: border-box;
   margin: 8px;
+  font-size: 2vw;
   font-weight: bold;
   text-decoration: underline;
   color: var(--main-blue);
   margin: 5px;
-}
-
-.oneImage {
-  box-sizing: border-box;
-  margin-top: 10px;
-}
-
-.oneImage .imgInicio {
-  object-fit: contain;
-  height: 250px;
 }
 
 .mainLitleBox:hover .subText {
@@ -61,38 +56,3 @@
   position: absolute;
   width: 20%;
 }
-
-/*
-
-
-
-.textPg {
-  display: flex;
-  flex-direction: column;
-  font-weight: normal;
-  margin-bottom: 10px;
-}
-.dateIndex {
-  margin-top: 10px;
-  font-size: x-small;
-}
-.mainDiv {
-  display: flex;
-  flex-direction: column;
-}
-
-@media (width <= 600px) {
-  .mainBoxGrid {
-    display: flex;
-    flex-direction: column;
-    max-height: 1000px;
-  }
-  .mainLitleBox {
-    max-height: 250px;
-    overflow: hidden;
-  }
-  .subText {
-    display: none;
-  }
-}
- */

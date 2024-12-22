@@ -21,7 +21,7 @@ export const News = () => {
       <h1>News</h1>
       <div className="textContainer">
         {news.map((items) => (
-          <div key={items.ident} className="text">
+          <div key={items.ident} className="textBlock">
             <h2>{items.title}</h2>
             {items.body.map((item) => (
               <p key={item}>{item}</p>
