@@ -3,7 +3,7 @@ import "./css/contact.css";
 export const Contact = () => {
   return (
     <>
-      <h1>Contact</h1>
+      <h1>Contáctanos</h1>
       <section className="mainBoxContact">
         <p className="textContact">
           Para hablar con nosotros, estaremos por la puerta del cole dejando a

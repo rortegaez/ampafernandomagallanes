@@ -24,7 +24,7 @@ export const Nav = () => {
         Equipo
       </Link>
       <Link to="/Contact" className="textHeader">
-        Contactanos
+        Contáctanos
       </Link>
     </nav>
   );
