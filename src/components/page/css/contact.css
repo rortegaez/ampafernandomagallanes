@@ -1,0 +1,30 @@
+.mainBoxContact {
+  box-sizing: border-box;
+  background-color: var(--main-gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.textContact {
+  color: var(--main-blue);
+  font-weight: bold;
+}
+.textContactExtended {
+  color: var(--main-blue);
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orderList {
+  list-style: none;
+}
+.icons {
+  object-fit: contain;
+  width: 100px;
+}

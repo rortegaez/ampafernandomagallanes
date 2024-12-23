@@ -1,0 +1,58 @@
+.mainBoxGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+  max-height: 820px;
+  overflow: hidden;
+}
+
+.mainLitleBox {
+  box-sizing: border-box;
+  height: 40vw;
+  background-color: var(--main-orange);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px 15px 10px;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.oneImage {
+  margin: 5vh;
+}
+
+.imgInicio {
+  object-fit: contain;
+  width: 20vw;
+}
+
+.mainTitle {
+  box-sizing: border-box;
+  margin: 8px;
+  font-size: 2vw;
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--main-blue);
+  margin: 5px;
+}
+
+.mainLitleBox:hover .subText {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.subText {
+  margin-top: 60px;
+  visibility: hidden;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: var(--main-blue);
+  color: var(--main-orange);
+  position: absolute;
+  width: 20%;
+}
