@@ -32,3 +32,6 @@ p {
   object-fit: cover;
   border-radius: 10px;
 }
+.gallery {
+  width: 80%;
+}

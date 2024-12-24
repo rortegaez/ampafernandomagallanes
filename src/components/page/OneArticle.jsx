@@ -26,7 +26,7 @@ export const OneArticle = () => {
             {items.body.map((item) => (
               <p key={item}>{item}</p>
             ))}
-            <div>
+            <div className="gallery">
               <Gallery
                 items={items.image?.map((imgs) => ({
                   original: imgs,

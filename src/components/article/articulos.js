@@ -1,5 +1,39 @@
 const ARTICULOS = [
 	{
+		ident: 'fiestanavidad2024',
+		title: 'Fiesta de Navidad 2024',
+		subTitle: 'Ya hemos terminado el primer trimeste y hemos realizado nuestra fiesta de Navidad, junto a las familias del colegio.',
+		body: [
+			'Ya hemos tenido nuestra fiesta de Navidad. Hemos pasado un buen rato con las familias de nuestro colegio. Disfrutando de varias actividades en el recinto escolar.',
+			'Como en otras fiestas, hemos disfrutado del castillo hinchable, el cual, se pudo no cobrar, ya que se ha pagado gracias a la subvención que nos dio el Ayuntamiento de Marbella. Al igual, que las actividades de manualidades que pudieron hacer los asistentes, que también estaba subvencionada.',
+			'Se creó el poblado navideño, un rinconcito en el patio infantil, que estaba decorado con mucho cariño y donde teníamos un pequeño puesto de adornos navideños, realizados por los padres y madres del cole para aportar su “granito de arena” al AMPA, gesto que agradecemos mucho.',
+			'En esta fiesta pudimos estrenar las mesas y sillas de plásticos que hemos adquirido para los futuros eventos del colegio, tanto del AMPA como del cole, que se compraron gracias a la subvención recibida del Ayuntamiento de Marbella. Creando un espacio de descanso en la zona ajardinada del patio. Junto a la ya habitual barra donde se pudo merendar y tomar algún refresco.',
+			'Gracias al esfuerzo del equipo del AMPA y de los padres voluntarios, pasamos una tarde agradable, donde los niños pudieron disfrutar de su cole y no solo en horario escolar.',
+			'Sin más desear de parte del AMPA unas felices fiestas, nos vemos a la vuelta con fuerzas renovadas.'
+		],
+		date: '23-12-2024',
+		description: 'activities',
+		image: [
+			'/fiestaNavidad2024/fiestaNavidad-1.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-2.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-3.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-4.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-5.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-6.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-7.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-8.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-9.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-10.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-11.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-12.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-13.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-14.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-15.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-16.jpg',
+			'/fiestaNavidad2024/fiestaNavidad-17.jpg',
+		]
+	},
+	{
 		ident: 'adquisicionsillasymesas',
 		title: 'Sillas y Mesas a través de la subvención del Ayuntamiento',
 		subTitle: 'Gracias a la subvención que nos concedio el Ayuntamiento de Marbella, hemos podido adquirir estas sillas y mesas para cualquiera de los eventos del colegio.',
