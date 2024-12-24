@@ -9,7 +9,7 @@
 
 .mainLitleBox {
   box-sizing: border-box;
-  height: 60vh;
+  height: 400px;
   background-color: var(--main-orange);
   display: flex;
   flex-direction: column;
