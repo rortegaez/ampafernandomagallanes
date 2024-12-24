@@ -1,6 +1,9 @@
+import Gallery from "react-image-gallery";
 import { useParams } from "react-router-dom";
+
 import ARTICULOS from "../article/articulos";
 
+import "react-image-gallery/styles/css/image-gallery.css";
 import "./css/newsActivities.css";
 
 export const OneArticle = () => {
@@ -24,9 +27,12 @@ export const OneArticle = () => {
               <p key={item}>{item}</p>
             ))}
             <div>
-              {items.image?.map((imgs) => (
-                <img src={imgs} alt="photo" key={imgs} className="imgText" />
-              ))}
+              <Gallery
+                items={items.image?.map((imgs) => ({
+                  original: imgs,
+                  thumbnail: imgs,
+                }))}
+              />
             </div>
             <h5>{items.date}</h5>
           </div>

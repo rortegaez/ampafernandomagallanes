@@ -11,7 +11,7 @@ export const Home = () => {
       <div className="mainBoxGrid">
         {ARTICULOS.map((exp) => (
           <div className="mainLitleBox" key={exp.ident}>
-            <Link to={`/${exp.description}`}>
+            <Link to={`/${exp.description}/${exp.ident}`}>
               <h2 className="mainTitle">{exp.title}</h2>
               <p className="subText">{exp.subTitle}</p>
               <div className="oneImage">

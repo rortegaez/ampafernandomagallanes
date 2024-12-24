@@ -1,6 +1,6 @@
 const ARTICULOS = [
 	{
-		ident: 'sillasMesas24',
+		ident: 'adquisicionsillasymesas',
 		title: 'Sillas y Mesas a través de la subvención del Ayuntamiento',
 		subTitle: 'Gracias a la subvención que nos concedio el Ayuntamiento de Marbella, hemos podido adquirir estas sillas y mesas para cualquiera de los eventos del colegio.',
 		body: [
@@ -15,7 +15,7 @@ const ARTICULOS = [
 		]
 	},
 	{
-		ident: "cierreColegioDana",
+		ident: "cierrecolegioDANA",
 		title: "Suspensión de las clases por la DANA",
 		subTitle: "La alerta roja por lluvia indicada por la AEMET, han obligado que las clases se hayan tenido que suspender mañana día 13/11",
 		body: [
@@ -30,7 +30,7 @@ const ARTICULOS = [
 		]
 	},
 	{
-		ident: "fstHalloween24",
+		ident: "fiestahalloween2024",
 		title: "Día de Halloween 2024",
 		subTitle: "Después de un aplazamiento que a todos nos molesto mucho, llego el momento de hacer nuestra fiesta para el disfrute de mayores y niños en su colegio.",
 		body:[
@@ -52,7 +52,7 @@ const ARTICULOS = [
 		]
 	},
 	{
-		ident: "Halloween2024",
+		ident: "aplazamientohalloween2024",
 		title: 'Fiesta de Halloween 2024',
 		subTitle: "Por culpa de las inclemencias del tiempo, nos vemos obligados al aplazamiento de la fiesta de Halloween, al miercoles 6 de noviembre.",
 		body: [
@@ -64,13 +64,13 @@ const ARTICULOS = [
 			'AMPA Fernando Magallanes'
 		],
 		date: '01-11-2024',
-		description: 'activities',
+		description: 'news',
 		image: [
 			"/halloween24/halloween24.jpg",
 		]
 	},
 	{
-		ident: "fiestaFinDeCurso",
+		ident: "fiestafincurso2024",
 		title: "Fiesta de Fin de Curso 2023-2024",
 		subTitle: "Después de meses de trabajo y esfuerzos, con el apoyo del colegio y de muchos papas y mamas, lo hemos conseguido, llegamos a tener nuestra fiesta de fin de curso.",
 		body: [
@@ -82,23 +82,23 @@ const ARTICULOS = [
 			'Así que sin más que tengan un Feliz Verano y disfrutéis con vuestros hijos.',
 			'Saludos la Dirección del AMPA Fernando Magallanes.'
 		],
-		description: "news",
+		description: "activities",
 		date: '21-06-2024',
 		image: [
-			'finCurso2324/imagen1.jpg',
-			'finCurso2324/imagen2.jpg',
-			'finCurso2324/imagen3.jpg',
-			'finCurso2324/imagen4.jpg',
-			'finCurso2324/imagen5.jpg',
-			'finCurso2324/imagen6.jpg',
-			'finCurso2324/imagen7.jpg',
-			'finCurso2324/imagen8.jpg',
-			'finCurso2324/imagen9.jpg',
-			'finCurso2324/imagen10.jpg'
+			'/finCurso2324/imagen1.jpg',
+			'/finCurso2324/imagen2.jpg',
+			'/finCurso2324/imagen3.jpg',
+			'/finCurso2324/imagen4.jpg',
+			'/finCurso2324/imagen5.jpg',
+			'/finCurso2324/imagen6.jpg',
+			'/finCurso2324/imagen7.jpg',
+			'/finCurso2324/imagen8.jpg',
+			'/finCurso2324/imagen9.jpg',
+			'/finCurso2324/imagen10.jpg'
 		]
 	},
 	{
-		ident: "repartoLeche",
+		ident: "repartoleche",
 		title: "Reparto leche con Nesquik",
 		subTitle:"En este día hemos ayudado al colegio, junto a un grupo de voluntarios, para el reparto de leche a nuestros niños.",
 		body: [
@@ -113,7 +113,7 @@ const ARTICULOS = [
 		]
 	},
 	{
-		ident: "primerPaso",
+		ident: "primerpaso",
 		title: 'Hemos dado el primer paso GRACIAS',
 		subTitle: "Después de trabajo de ponerlo en marcho, ya hemos dado el primer paso conseguir los socios para poder poner en marcho los primeros proyecto, pronto los iremos viendo.",
 		body: [
@@ -131,7 +131,7 @@ const ARTICULOS = [
 		]
 	},
 	{
-		ident: "amapaLlegando",
+		ident: "amapallegando",
 		title: "El AMPA esta llegando...",
 		subTitle: "Aunque hay momentos que parece que no estamos hacieno nada, seguimos trabajando y pronto tendremos AMPA de manera oficial.",
 		body: [
