@@ -3,13 +3,13 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
-  max-height: 820px;
+  height: 820px;
   overflow: hidden;
 }
 
 .mainLitleBox {
   box-sizing: border-box;
-  height: 40vw;
+  height: 60vh;
   background-color: var(--main-orange);
   display: flex;
   flex-direction: column;
