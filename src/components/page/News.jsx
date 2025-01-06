@@ -1,22 +1,12 @@
-import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
-
-import ARTICULOS from "../article/articulos.js";
+import { Link, useLocation } from "react-router-dom";
+import { useRecovery } from "../hooks/useRecovery.js";
 
 import "./css/newsActivities.css";
 
 export const News = () => {
-  const [news, setNews] = useState([]);
+  const { pathname } = useLocation();
+  const { news } = useRecovery({ pathname });
 
-  useEffect(() => {
-    const recoveryNews = () => {
-      const recoveryArticles = ARTICULOS.filter(
-        (element) => element.description === "news"
-      );
-      setNews(recoveryArticles);
-    };
-    recoveryNews();
-  }, []);
   return (
     <>
       <h1>News</h1>
