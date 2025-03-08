@@ -1,5 +1,32 @@
 const ARTICULOS = [
 	{
+		ident: 'carnaval2025',
+		title: 'Pasacalles de Carnaval 2025',
+		subTitle: 'El viernes 7 de marzos, disfrutamos de un momento de diversión y alegria juntos a nuestros niños, en el pasacalles del Carnaval.',
+		body: [
+			'Este viernes hicimos el habitual pasacalles del colegio por motivos del carnaval. Como todos los años recorrimos las calles de nuestro barrio. Yendo cada ciclo con una temática y dando color y música por las calles. Esto hizo que los vecinos salieran a sus ventanas y que los clientes y dueños de los comercios se asomaran a ver lo que estábamos haciendo.',
+			'Desde las diez de la mañana hasta la hora del recreo. Los niños y niñas del colegio pudieron dejar los libros un rato, salir a la calle a divertirse y pasarlo bien. Luciendo sus mejores disfraces, ante su barrio y su gente.',
+			'Además del buen rato que pasamos todos los miembros de la comunidad juntos, tanto ayudando, como apoyando este pasacalle. Debemos de agradecer a los Agentes de la Policía Local de Marbella, el acompañamiento que nos hicieron durante todo el recorrido para controlar el tráfico y asegurándonos que todo discurriese con normalidad y sin ningún tipo de incidente.'
+		],
+		date: '23-12-202408-03-2025',
+		description: 'activities',
+		image: [
+			'/carnaval2025/carnaval202500.jpg',
+			'/carnaval2025/carnaval202501.jpg',
+			'/carnaval2025/carnaval202502.jpg',
+			'/carnaval2025/carnaval202503.jpg',
+			'/carnaval2025/carnaval202504.jpg',
+			'/carnaval2025/carnaval202505.jpg',
+			'/carnaval2025/carnaval202506.jpg',
+			'/carnaval2025/carnaval202507.jpg',
+			'/carnaval2025/carnaval202508.jpg',
+			'/carnaval2025/carnaval202509.jpg',
+			'/carnaval2025/carnaval202510.jpg',
+			'/carnaval2025/carnaval202511.jpg',
+			'/carnaval2025/carnaval202512.jpg',
+		]
+	},
+	{
 		ident: 'fiestanavidad2024',
 		title: 'Fiesta de Navidad 2024',
 		subTitle: 'Ya hemos terminado el primer trimeste y hemos realizado nuestra fiesta de Navidad, junto a las familias del colegio.',
