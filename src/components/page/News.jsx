@@ -9,7 +9,7 @@ export const News = () => {
 
   return (
     <>
-      <h1>News</h1>
+      <h1>Noticias</h1>
       <div className="textContainer">
         {news.map((items) => (
           <Link to={`/news/${items.ident}`} key={items.ident}>
