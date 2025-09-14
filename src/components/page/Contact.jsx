@@ -25,7 +25,7 @@ export const Contact = () => {
         <ul className="orderList">
           <li className="textContact">Primero: Descarga el documento</li>
           <li className="textContactExtended">
-            <a href="/docs/inscripcion2425.pdf" target="_blank" rel="noopener">
+            <a href="/docs/InscripcionAmpaFernandoMagallanes25-26.pdf" target="_blank" rel="noopener">
               <img src="/icons/docs.png" alt="pdf" className="icons" />
             </a>
           </li>
